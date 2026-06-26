@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Highland PNG Logistics</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #006633;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #004d26;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.quote-header {
+    background: linear-gradient(to right, #006633, #00994d);
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #006633;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d26;
+}
+
+footer {
+    background-color: #006633;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Highland PNG Logistics</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<img src=""
+     alt=""
+     width="100%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1280px-Flag_of_Papua_New_Guinea.svg.png"
+     alt="Freight Truck"
+     width="120"
+     style="float:right; border-radius:8px;">
+
+
+
+
+<div class="container">
+
+    <div class="quote-header">
+        <h2>Freight Delivery Request</h2>
+        <p>
+            Request a freight delivery quote anywhere in Papua New Guinea.
+            Complete the form below and our logistics team will contact you.
+        </p>
+    </div>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Company Name</label>
+        <input type="text">
+
+        <label>Email Address</label>
+        <input type="email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" required>
+
+        <label>Pickup Location</label>
+        <input type="text" required>
+
+        <label>Delivery Location</label>
+        <input type="text" required>
+
+        <label>Cargo Type</label>
+        <select>
+            <option>General Freight</option>
+            <option>Building Materials</option>
+            <option>Mining Equipment</option>
+            <option>Food & Beverages</option>
+            <option>Machinery</option>
+            <option>Other</option>
+        </select>
+
+        <label>Estimated Weight (kg)</label>
+        <input type="number">
+
+        <label>Additional Details</label>
+        <textarea rows="5"></textarea>
+
+        <button type="button" onclick="sendRequest()">
+            Request Freight Quote
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>© 2026 Highland PNG Logistics</p>
+</footer>
+
+<script>
+function sendRequest() {
+    alert("Thank you for your freight request. Our team will contact you shortly.");
+}
+</script>
+
+</body>
+</html>
